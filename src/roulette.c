@@ -456,12 +456,12 @@ static const struct WindowTemplate sWindowTemplates[] =
 {
     {
         .bg = 0,
-        .tilemapLeft = 3,
+        .tilemapLeft = 2,
         .tilemapTop = 15,
-        .width = 24,
+        .width = 26,
         .height = 4,
         .paletteNum = 15,
-        .baseBlock = 0xC5
+        .baseBlock = 0xBD
     },
     #ifdef UBFIX
     DUMMY_WIN_TEMPLATE,
@@ -2323,22 +2323,6 @@ static void UpdateWheelPosition(void)
 }
 
 static const u8 sFiller[3] = {};
-static const u16 sShadow_Pal[] = INCBIN_U16("graphics/roulette/shadow.gbapal");
-static const u16 sBall_Pal[] = INCBIN_U16("graphics/roulette/ball.gbapal");
-static const u16 sBallCounter_Pal[] = INCBIN_U16("graphics/roulette/ball_counter.gbapal");
-static const u16 sCursor_Pal[] = INCBIN_U16("graphics/roulette/cursor.gbapal");
-static const u16 sCredit_Pal[] = INCBIN_U16("graphics/roulette/credit.gbapal");
-static const u16 sShroomish_Pal[] = INCBIN_U16("graphics/roulette/shroomish.gbapal");
-static const u16 sTaillow_Pal[] = INCBIN_U16("graphics/roulette/tailow.gbapal");
-static const u16 sGridIcons_Pal[] = INCBIN_U16("graphics/roulette/grid_icons.gbapal");
-static const u16 sWynaut_Pal[] = INCBIN_U16("graphics/roulette/wynaut.gbapal");
-static const u16 sAzurill_Pal[] = INCBIN_U16("graphics/roulette/azurill.gbapal");
-static const u16 sSkitty_Pal[] = INCBIN_U16("graphics/roulette/skitty.gbapal");
-static const u16 sMakuhita_Pal[] = INCBIN_U16("graphics/roulette/makuhita.gbapal");
-static const u16 sUnused1_Pal[] = INCBIN_U16("graphics/roulette/unused_1.gbapal");
-static const u16 sUnused2_Pal[] = INCBIN_U16("graphics/roulette/unused_2.gbapal");
-static const u16 sUnused3_Pal[] = INCBIN_U16("graphics/roulette/unused_3.gbapal");
-static const u16 sUnused4_Pal[] = INCBIN_U16("graphics/roulette/unused_4.gbapal");
 static const u32 sBall_Gfx[] = INCBIN_U32("graphics/roulette/ball.4bpp.lz");
 static const u32 sBallCounter_Gfx[] = INCBIN_U32("graphics/roulette/ball_counter.4bpp.lz");
 static const u32 sShroomishTaillow_Gfx[] = INCBIN_U32("graphics/roulette/roulette_tilt.4bpp.lz");

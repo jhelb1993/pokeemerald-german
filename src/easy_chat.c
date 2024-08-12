@@ -692,16 +692,16 @@ static const u8 sAlphabetGroupIdMap[NUM_ALPHABET_ROWS][NUM_ALPHABET_COLUMNS] = {
 
 static const u16 sMysteryGiftPhrase[NUM_QUESTIONNAIRE_WORDS] = {
     EC_WORD_LINK,
-    EC_WORD_TOGETHER,
     EC_WORD_WITH,
     EC_WORD_ALL,
+    EC_WORD_TOGETHER,
 };
 
 static const u16 sBerryMasterWifePhrases[][2] = {
-    [PHRASE_GREAT_BATTLE - 1]        = {EC_WORD_GREAT, EC_WORD_BATTLE},
-    [PHRASE_CHALLENGE_CONTEST - 1]   = {EC_WORD_CHALLENGE, EC_WORD_CONTEST},
-    [PHRASE_OVERWHELMING_LATIAS - 1] = {EC_WORD_OVERWHELMING, EC_POKEMON(LATIAS)},
-    [PHRASE_COOL_LATIOS - 1]         = {EC_WORD_COOL, EC_POKEMON(LATIOS)},
+    [PHRASE_GREAT_BATTLE - 1]        = {EC_WORD_GREAT, EC_WORD_FIGHT},
+    [PHRASE_CHALLENGE_CONTEST - 1]   = {EC_WORD_CONTEST, EC_WORD_CHALLENGE},
+    [PHRASE_OVERWHELMING_LATIAS - 1] = {EC_POKEMON(LATIAS), EC_WORD_OVERWHELMING},
+    [PHRASE_COOL_LATIOS - 1]         = {EC_POKEMON(LATIOS), EC_WORD_COOL},
     [PHRASE_SUPER_HUSTLE - 1]        = {EC_WORD_SUPER, EC_WORD_HUSTLE},
 };
 
@@ -828,9 +828,9 @@ static const struct BgTemplate sEasyChatBgTemplates[] = {
 static const struct WindowTemplate sEasyChatWindowTemplates[] = {
     [WIN_TITLE] = {
         .bg = 1,
-        .tilemapLeft = 6,
+        .tilemapLeft = 0,
         .tilemapTop = 0,
-        .width = 18,
+        .width = 30,
         .height = 2,
         .paletteNum = 10,
         .baseBlock = 0x10,
@@ -1199,8 +1199,8 @@ static const struct SpriteTemplate sSpriteTemplate_ScrollIndicator =
 
 static const u8 sFooterOptionXOffsets[NUM_FOOTER_TYPES][4] = {
     [FOOTER_NORMAL] = {16, 111, 196,   0},
-    [FOOTER_QUIZ]   = {16,  78, 130, 160},
-    [FOOTER_ANSWER] = {16,  80, 134, 170},
+    [FOOTER_QUIZ]   = {16,  80, 144, 184},
+    [FOOTER_ANSWER] = {16,  74, 132, 166},
 };
 
 static const u8 *const sFooterTextOptions[NUM_FOOTER_TYPES][4] = {
@@ -1239,9 +1239,9 @@ static const u8 *const sEasyChatGroupNamePointers[EC_NUM_GROUPS] = {
 
 static const u16 sDefaultProfileWords[EASY_CHAT_BATTLE_WORDS_COUNT - 2] = {
     EC_WORD_I_AM,
-    EC_WORD_A,
+    EC_WORD_BIG,
+    EC_WORD_IN,
     EC_WORD_POKEMON,
-    EC_WORD_FRIEND,
 };
 
 static const u16 sDefaultBattleStartWords[EASY_CHAT_BATTLE_WORDS_COUNT] = {
@@ -1255,18 +1255,18 @@ static const u16 sDefaultBattleStartWords[EASY_CHAT_BATTLE_WORDS_COUNT] = {
 
 static const u16 sDefaultBattleWonWords[EASY_CHAT_BATTLE_WORDS_COUNT] = {
     EC_WORD_YAY,
-    EC_WORD_YAY,
     EC_WORD_EXCL_EXCL,
+    EC_WORD_YUP,
     EC_WORD_I_VE,
     EC_WORD_WON,
     EC_WORD_EXCL_EXCL,
 };
 
 static const u16 sDefaultBattleLostWords[EASY_CHAT_BATTLE_WORDS_COUNT] = {
-    EC_WORD_TOO,
-    EC_WORD_BAD,
+    EC_WORD_SO,
+    EC_WORD_WELL,
     EC_WORD_ELLIPSIS,
-    EC_WORD_WE,
+    EC_WORD_WE_VE,
     EC_WORD_LOST,
     EC_WORD_ELLIPSIS,
 };
@@ -3945,7 +3945,11 @@ static void PrintTitle(void)
     if (!titleText)
         return;
 
-    xOffset = GetStringCenterAlignXOffset(FONT_NORMAL, titleText, 144);
+    xOffset = GetStringCenterAlignXOffset(
+        FONT_NORMAL,
+        titleText,
+        240
+    );
     FillWindowPixelBuffer(WIN_TITLE, PIXEL_FILL(0));
     PrintEasyChatTextWithColors(WIN_TITLE, FONT_NORMAL, titleText, xOffset, 1, TEXT_SKIP_DRAW, TEXT_COLOR_TRANSPARENT, TEXT_COLOR_DARK_GRAY, TEXT_COLOR_LIGHT_GRAY);
     PutWindowTilemap(WIN_TITLE);
@@ -4043,7 +4047,7 @@ static void AddPhraseWindow(void)
     template.width = sPhraseFrameDimensions[frameId].width;
     template.height = sPhraseFrameDimensions[frameId].height;
     template.paletteNum = 11;
-    template.baseBlock = 0x6C;
+    template.baseBlock = 0x84;
     sScreenControl->windowId = AddWindow(&template);
     PutWindowTilemap(sScreenControl->windowId);
 }
@@ -5088,7 +5092,7 @@ static void AddMainScreenButtonWindow(void)
     template.width = 28;
     template.height = 2;
     template.paletteNum = 11;
-    template.baseBlock = 0x34;
+    template.baseBlock = 0x4C;
     windowId = AddWindow(&template);
     FillWindowPixelBuffer(windowId, PIXEL_FILL(1));
     for (i = 0; i < (int)ARRAY_COUNT(sFooterTextOptions[0]); i++)
@@ -5264,7 +5268,7 @@ u8 *ConvertEasyChatWordsToString(u8 *dest, const u16 *src, u16 columns, u16 rows
     return dest;
 }
 
-static u8 UNUSED *UnusedConvertEasyChatWordsToString(u8 *dest, const u16 *src, u16 columns, u16 rows)
+u8 *UnusedConvertEasyChatWordsToString(u8 *dest, const u16 *src, u16 columns, u16 rows)
 {
     u16 i, j, k;
     u16 numColumns;

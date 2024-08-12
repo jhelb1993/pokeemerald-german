@@ -1,573 +1,578 @@
 const u8 DecorDesc_SMALL_DESK[] = _(
-    "A small desk built\n"
-        "for one.");
+    "Ein kleiner Tisch\n"
+        "für eine Person.");
 
 const u8 DecorDesc_POKEMON_DESK[] = _(
-    "A small desk built in\n"
-        "the shape of a POKé\n"
-        "BALL.");
+    "Ein kleiner Tisch,\n"
+        "geformt wie ein\n"
+        "POKéBALL.");
 
 const u8 DecorDesc_HEAVY_DESK[] = _(
-    "A large desk made\n"
-        "of steel. Put some\n"
-        "decorations on it.");
+    "Ein großer Tisch\n"
+        "aus Stahl. Für\n"
+        "Dekorationen.");
 
 const u8 DecorDesc_RAGGED_DESK[] = _(
-    "A large desk made\n"
-        "of wood. Put some\n"
-        "decorations on it.");
+    "Ein großer Tisch\n"
+        "aus Holz. Für\n"
+        "Dekorationen.");
 
 const u8 DecorDesc_COMFORT_DESK[] = _(
-    "A large desk made\n"
-        "of leaves. Put some\n"
-        "decorations on it.");
+    "Ein riesiger Tisch\n"
+        "aus Blättern. Für\n"
+        "Dekorationen.");
 
 const u8 DecorDesc_PRETTY_DESK[] = _(
-    "A huge desk made\n"
-        "of glass. Holds lots\n"
-        "of decorations.");
+    "Ein riesiger Tisch\n"
+        "aus Glas. Trägt\n"
+        "viele Dekorationen.");
 
 const u8 DecorDesc_BRICK_DESK[] = _(
-    "A huge desk made\n"
-        "of brick. Holds lots\n"
-        "of decorations.");
+    "Ein riesiger Tisch\n"
+        "aus Backstein. Für\n"
+        "viele Dekorationen.");
 
 const u8 DecorDesc_CAMP_DESK[] = _(
-    "A huge desk made\n"
-        "of logs. Put lots of\n"
-        "decorations on it.");
+    "Ein riesiger Tisch\n"
+        "aus Baumstämmen.\n"
+        "Für Dekorationen.");
 
 const u8 DecorDesc_HARD_DESK[] = _(
-    "A huge desk made\n"
-        "of rocks. Holds\n"
-        "many decorations.");
+    "Ein riesiger Tisch\n"
+        "aus Stein. Trägt\n"
+        "viele Dekorationen.");
 
 const u8 DecorDesc_SMALL_CHAIR[] = _(
-    "A small chair made\n"
-        "for one.");
+    "Ein kleiner Stuhl\n"
+        "für eine Person.");
 
 const u8 DecorDesc_POKEMON_CHAIR[] = _(
-    "A small chair built\n"
-        "in the shape of a\n"
-        "POKé BALL.");
+    "Ein kleiner Stuhl\n"
+        "in der Form eines\n"
+        "POKéBALLs.");
 
 const u8 DecorDesc_HEAVY_CHAIR[] = _(
-    "A small chair made\n"
-        "of steel.");
+    "Ein kleiner Stuhl\n"
+        "aus Stahl.");
 
 const u8 DecorDesc_PRETTY_CHAIR[] = _(
-    "A small chair made\n"
-        "of glass.");
+    "Ein kleiner Stuhl\n"
+        "aus Glas.");
 
 const u8 DecorDesc_COMFORT_CHAIR[] = _(
-    "A small chair made\n"
-        "of leaves.");
+    "Ein kleiner Stuhl\n"
+        "aus Blättern.");
 
 const u8 DecorDesc_RAGGED_CHAIR[] = _(
-    "A small chair made\n"
-        "of wood.");
+    "Ein kleiner Stuhl\n"
+        "aus Holz.");
 
 const u8 DecorDesc_BRICK_CHAIR[] = _(
-    "A small chair made\n"
-        "of brick.");
+    "Ein kleiner Stuhl\n"
+        "aus Backstein.");
 
 const u8 DecorDesc_CAMP_CHAIR[] = _(
-    "A small chair made\n"
-        "of logs.");
+    "Ein kleiner Stuhl\n"
+        "aus Baumstämmen.");
 
 const u8 DecorDesc_HARD_CHAIR[] = _(
-    "A small chair made\n"
-        "of rock.");
+    "Ein kleiner Stuhl\n"
+        "aus Stein.");
 
 const u8 DecorDesc_RED_PLANT[] = _(
-    "A vivid red potted\n"
-        "plant.");
+    "Eine leuchtend\n"
+        "rote Pflanze.");
 
 const u8 DecorDesc_TROPICAL_PLANT[] = _(
-    "A flowering tropical\n"
-        "plant in a pot.");
+    "Eine blühende,\n"
+        "tropische Pflanze\n"
+        "in einem Übertopf.");
 
 const u8 DecorDesc_PRETTY_FLOWERS[] = _(
-    "A pot of cute\n"
-        "flowers.");
+    "Ein Topf mit\n"
+        "hübschen Blumen.");
 
 const u8 DecorDesc_COLORFUL_PLANT[] = _(
-    "A large pot with\n"
-        "many colorful\n"
-        "flowers.");
+    "Ein großer Topf mit\n"
+        "vielen, farben-\n"
+        "prächtigen Blumen.");
 
 const u8 DecorDesc_BIG_PLANT[] = _(
-    "A large, umbrella-\n"
-        "shaped plant in a\n"
-        "big pot.");
+    "Eine große, schirm-\n"
+        "förmige Pflanze in\n"
+        "einem großen Topf.");
 
 const u8 DecorDesc_GORGEOUS_PLANT[] = _(
-    "A large, impressive\n"
-        "plant in a big pot.");
+    "Eine beeindruckend\n"
+        "große Pflanze in\n"
+        "einem großen Topf.");
 
 const u8 DecorDesc_RED_BRICK[] = _(
-    "A red-colored brick.\n"
-        "Decorations can be\n"
-        "placed on top.");
+    "Ein roter Back-\n"
+        "stein. Stelle Deko-\n"
+        "rationen darauf.");
 
 const u8 DecorDesc_YELLOW_BRICK[] = _(
-    "A yellow-colored\n"
-        "brick. Put some\n"
-        "decorations on top.");
+    "Ein gelber Back-\n"
+        "stein. Stelle Deko-\n"
+        "rationen darauf.");
 
 const u8 DecorDesc_BLUE_BRICK[] = _(
-    "A blue-colored\n"
-        "brick. Put some\n"
-        "decorations on top.");
+    "Ein blauer Back-\n"
+        "stein. Stelle Deko-\n"
+        "rationen darauf.");
 
 const u8 DecorDesc_RED_BALLOON[] = _(
-    "A red balloon filled\n"
-        "with water. Bursts\n"
-        "if stepped on.");
+    "Ein roter Ballon mit\n"
+        "Wasser. Platzt beim\n"
+        "Drauftreten.");
 
 const u8 DecorDesc_BLUE_BALLOON[] = _(
-    "A blue balloon filled\n"
-        "with water. Bursts\n"
-        "if stepped on.");
+    "Ein blauer Ballon\n"
+        "mit Wasser. Platzt\n"
+        "beim Drauftreten.");
 
 const u8 DecorDesc_YELLOW_BALLOON[] = _(
-    "A yellow balloon\n"
-        "filled with water.\n"
-        "Pops if stepped on.");
+    "Ein gelber Ballon\n"
+        "mit Wasser. Platzt\n"
+        "beim Drauftreten.");
 
 const u8 DecorDesc_RED_TENT[] = _(
-    "A large red tent.\n"
-        "You can hide inside\n"
-        "it.");
+    "Ein großes, rotes\n"
+        "Zelt. Darin kann man\n"
+        "sich verstecken.");
 
 const u8 DecorDesc_BLUE_TENT[] = _(
-    "A large blue tent.\n"
-        "You can hide inside\n"
-        "it.");
+    "Ein großes, blaues\n"
+        "Zelt. Darin kann man\n"
+        "sich verstecken.");
 
 const u8 DecorDesc_SOLID_BOARD[] = _(
-    "Place over a hole to\n"
-        "cross to the other\n"
-        "side.");
+    "Leg es über ein\n"
+        "Loch, um die andere\n"
+        "Seite zu erreichen.");
 
 const u8 DecorDesc_SLIDE[] = _(
-    "Use to slide down\n"
-        "from the platform.");
+    "Nützlich, um von der\n"
+        "Plattform hinab-\n"
+        "gleiten zu können.");
 
 const u8 DecorDesc_FENCE_LENGTH[] = _(
-    "A small fence that\n"
-        "blocks passage.");
+    "Ein kleiner Zaun,\n"
+        "der den Durchgang\n"
+        "versperrt.");
 
 const u8 DecorDesc_FENCE_WIDTH[] = _(
-    "A small fence that\n"
-        "blocks passage.");
+    "Ein kleiner Zaun,\n"
+        "der den Durchgang\n"
+        "versperrt.");
 
 const u8 DecorDesc_TIRE[] = _(
-    "An old large tire.\n"
-        "Decorations can be\n"
-        "placed on top.");
+    "Ein großer, alter\n"
+        "Reifen. Für\n"
+        "Dekorationen.");
 
 const u8 DecorDesc_STAND[] = _(
-    "A large pedestal\n"
-        "with steps.");
+    "Ein Podest mit\n"
+        "Stufen.");
 
 const u8 DecorDesc_MUD_BALL[] = _(
-    "A large ball of mud.\n"
-        "Crumbles if stepped\n"
-        "on.");
+    "Ein großer Ball aus\n"
+        "Lehm. Geht kaputt\n"
+        "beim Drauftreten.");
 
 const u8 DecorDesc_BREAKABLE_DOOR[] = _(
-    "A weird door that\n"
-        "people can walk\n"
-        "right through.");
+    "Eine verrückte Tür,\n"
+        "durch die man hin-\n"
+        "durchlaufen kann.");
 
 const u8 DecorDesc_SAND_ORNAMENT[] = _(
-    "An ornament made\n"
-        "of sand. Crumbles if\n"
-        "touched.");
+    "Ein Ornament aus\n"
+        "Sand. Fällt bei\n"
+        "Kontakt zusammen.");
 
 const u8 DecorDesc_SILVER_SHIELD[] = _(
-    "Awarded for 50\n"
-        "straight wins at\n"
-        "the BATTLE TOWER.");
+    "Belohnung für\n"
+        "50 Siege in Folge im\n"
+        "DUELLTURM.");
 
 const u8 DecorDesc_GOLD_SHIELD[] = _(
-    "Awarded for 100\n"
-        "straight wins at\n"
-        "the BATTLE TOWER.");
+    "Belohnung für\n"
+        "100 Siege in Folge\n"
+        "im DUELLTURM.");
 
 const u8 DecorDesc_GLASS_ORNAMENT[] = _(
-    "A glass replica of\n"
-        "a famous sculpture\n"
-        "at the ART MUSEUM.");
+    "Das Replikat einer\n"
+        "berühmten Skulptur\n"
+        "des KUNSTMUSEUMs.");
 
 const u8 DecorDesc_TV[] = _(
-    "A small, gray-\n"
-        "colored toy TV.");
+    "Ein kleiner, grauer\n"
+        "Spielzeug-\n"
+        "Fernseher.");
 
 const u8 DecorDesc_ROUND_TV[] = _(
-    "A toy TV modeled\n"
-        "in the image of a\n"
-        "SEEDOT.");
+    "Ein Spielzeug-\n"
+        "Fernseher in der\n"
+        "Form von SAMURZEL.");
 
 const u8 DecorDesc_CUTE_TV[] = _(
-    "A toy TV modeled\n"
-        "in the image of a\n"
-        "SKITTY.");
+    "Ein Spielzeug-\n"
+        "Fernseher in der\n"
+        "Form eines ENECO.");
 
 const u8 DecorDesc_GLITTER_MAT[] = _(
-    "An odd mat that\n"
-        "glitters if stepped\n"
-        "on.");
+    "Eine seltsame\n"
+        "Matte. Glitzert\n"
+        "beim Drauftreten.");
 
 const u8 DecorDesc_JUMP_MAT[] = _(
-    "A trick mat that\n"
-        "jumps when it is\n"
-        "stepped on.");
+    "Eine Trick-Matte,\n"
+        "die hüpft, wenn man\n"
+        "drauftritt.");
 
 const u8 DecorDesc_SPIN_MAT[] = _(
-    "A trick mat that\n"
-        "spins around when\n"
-        "stepped on.");
+    "Eine Trick-Matte,\n"
+        "die sich beim\n"
+        "Drauftreten dreht.");
 
 const u8 DecorDesc_C_LOW_NOTE_MAT[] = _(
-    "A mat that plays\n"
-        "a low C note when\n"
-        "stepped on.");
+    "Eine Matte, die das\n"
+        "tiefe C spielt, wenn\n"
+        "man drauftritt.");
 
 const u8 DecorDesc_D_NOTE_MAT[] = _(
-    "A mat that plays\n"
-        "a D note when\n"
-        "stepped on.");
+    "Eine Matte, die\n"
+        "ein D spielt, wenn\n"
+        "man drauftritt.");
 
 const u8 DecorDesc_E_NOTE_MAT[] = _(
-    "A mat that plays\n"
-        "an E note when\n"
-        "stepped on.");
+    "Eine Matte, die\n"
+        "ein E spielt, wenn\n"
+        "man drauftritt.");
 
 const u8 DecorDesc_F_NOTE_MAT[] = _(
-    "A mat that plays\n"
-        "an F note when\n"
-        "stepped on.");
+    "Eine Matte, die\n"
+        "ein F spielt, wenn\n"
+        "man drauftritt.");
 
 const u8 DecorDesc_G_NOTE_MAT[] = _(
-    "A mat that plays\n"
-        "a G note when\n"
-        "stepped on.");
+    "Eine Matte, die\n"
+        "ein G spielt, wenn\n"
+        "man drauftritt.");
 
 const u8 DecorDesc_A_NOTE_MAT[] = _(
-    "A mat that plays\n"
-        "an A note when\n"
-        "stepped on.");
+    "Eine Matte, die\n"
+        "ein A spielt, wenn\n"
+        "man drauftritt.");
 
 const u8 DecorDesc_B_NOTE_MAT[] = _(
-    "A mat that plays\n"
-        "a B note when\n"
-        "stepped on.");
+    "Eine Matte, die\n"
+        "ein H spielt, wenn\n"
+        "man drauftritt.");
 
 const u8 DecorDesc_C_HIGH_NOTE_MAT[] = _(
-    "A mat that plays\n"
-        "a high C note when\n"
-        "stepped on.");
+    "Eine Matte, die das\n"
+        "hohe C spielt, wenn\n"
+        "man drauftritt.");
 
 const u8 DecorDesc_SURF_MAT[] = _(
-    "A mat designed with\n"
-        "a SURF image.\n"
-        "Put items on top.");
+    "Eine Matte mit\n"
+        "einem SURFER-\n"
+        "Muster. Für Items.");
 
 const u8 DecorDesc_THUNDER_MAT[] = _(
-    "A mat designed with\n"
-        "a THUNDER image.\n"
-        "Put items on top.");
+    "Eine Matte mit\n"
+        "einem DONNER-\n"
+        "Muster. Für Items.");
 
 const u8 DecorDesc_FIRE_BLAST_MAT[] = _(
-    "A mat designed with\n"
-        "a FIRE BLAST image.\n"
-        "Put items on top.");
+    "Eine Matte mit\n"
+        "FEUERSTURM-\n"
+        "Muster. Für Items.");
 
 const u8 DecorDesc_POWDER_SNOW_MAT[] = _(
-    "A mat with a POWDER\n"
-        "SNOW image design.\n"
-        "Put items on top.");
+    "Eine Matte mit\n"
+        "PULVERSCHNEE-\n"
+        "Muster. Für Items.");
 
 const u8 DecorDesc_ATTRACT_MAT[] = _(
-    "A mat designed with\n"
-        "an ATTRACT image.\n"
-        "Put items on top.");
+    "Eine Matte mit\n"
+        "ANZIEHUNG-\n"
+        "Muster. Für Items.");
 
 const u8 DecorDesc_FISSURE_MAT[] = _(
-    "A mat designed with\n"
-        "a FISSURE image.\n"
-        "Put items on top.");
+    "Eine Matte mit\n"
+        "GEOFISSUR-\n"
+        "Muster. Für Items.");
 
 const u8 DecorDesc_SPIKES_MAT[] = _(
-    "A mat designed with\n"
-        "a SPIKES image.\n"
-        "Put items on top.");
+    "Eine Matte mit\n"
+        "STACHLER-\n"
+        "Muster. Für Items.");
 
 const u8 DecorDesc_BALL_POSTER[] = _(
-    "A small poster\n"
-        "printed with POKé\n"
-        "BALLS.");
+    "Ein kleines Poster\n"
+        "von POKéBÄLLen.");
 
 const u8 DecorDesc_GREEN_POSTER[] = _(
-    "A small poster with\n"
-        "a TREECKO print.");
+    "Ein kleines Poster\n"
+        "von GECKARBOR.");
 
 const u8 DecorDesc_RED_POSTER[] = _(
-    "A small poster with\n"
-        "a TORCHIC print.");
+    "Ein kleines Poster\n"
+        "von FLEMMLI.");
 
 const u8 DecorDesc_BLUE_POSTER[] = _(
-    "A small poster with\n"
-        "a MUDKIP print.");
+    "Ein kleines Poster\n"
+        "von HYDROPI.");
 
 const u8 DecorDesc_CUTE_POSTER[] = _(
-    "A small poster with\n"
-        "an AZURILL print.");
+    "Ein kleines Poster\n"
+        "von AZURILL.");
 
 const u8 DecorDesc_PIKA_POSTER[] = _(
-    "A large poster with\n"
-        "a PIKACHU and\n"
-        "PICHU print.");
+    "Ein großes Poster\n"
+        "von PIKACHU und\n"
+        "PICHU.");
 
 const u8 DecorDesc_LONG_POSTER[] = _(
-    "A large poster with\n"
-        "a SEVIPER print.");
+    "Ein großes Poster\n"
+        "von VIPITIS.");
 
 const u8 DecorDesc_SEA_POSTER[] = _(
-    "A large poster with\n"
-        "a RELICANTH print.");
+    "Ein großes Poster\n"
+        "von RELICANTH.");
 
 const u8 DecorDesc_SKY_POSTER[] = _(
-    "A large poster with\n"
-        "a WINGULL print.");
+    "Ein großes Poster\n"
+        "von WINGULL.");
 
 const u8 DecorDesc_KISS_POSTER[] = _(
-    "A large poster with\n"
-        "a SMOOCHUM print.");
+    "Ein großes Poster\n"
+        "von KUSSILLA.");
 
 const u8 DecorDesc_PICHU_DOLL[] = _(
-    "A PICHU doll.\n"
-        "Place it on a mat\n"
-        "or a desk.");
+    "PICHU-Puppe. Leg\n"
+        "sie auf eine Matte\n"
+        "oder einen Tisch.");
 
 const u8 DecorDesc_PIKACHU_DOLL[] = _(
-    "A PIKACHU doll.\n"
-        "Place it on a mat\n"
-        "or a desk.");
+    "PIKACHU-Puppe. Leg\n"
+        "sie auf eine Matte\n"
+        "oder einen Tisch.");
 
 const u8 DecorDesc_MARILL_DOLL[] = _(
-    "A MARILL doll.\n"
-        "Place it on a mat\n"
-        "or a desk.");
+    "MARILL-Puppe. Leg\n"
+        "sie auf eine Matte\n"
+        "oder einen Tisch.");
 
 const u8 DecorDesc_TOGEPI_DOLL[] = _(
-    "A TOGEPI doll.\n"
-        "Place it on a mat\n"
-        "or a desk.");
+    "TOGEPI-Puppe. Leg\n"
+        "sie auf eine Matte\n"
+        "oder einen Tisch.");
 
 const u8 DecorDesc_CYNDAQUIL_DOLL[] = _(
-    "A CYNDAQUIL doll.\n"
-        "Place it on a mat\n"
-        "or a desk.");
+    "FEURIGEL-Puppe.\n"
+        "Für eine Matte oder\n"
+        "den Tisch.");
 
 const u8 DecorDesc_CHIKORITA_DOLL[] = _(
-    "A CHIKORITA doll.\n"
-        "Place it on a mat\n"
-        "or a desk.");
+    "ENDIVIE-Puppe. Leg\n"
+        "sie auf eine Matte\n"
+        "oder einen Tisch.");
 
 const u8 DecorDesc_TOTODILE_DOLL[] = _(
-    "A TOTODILE doll.\n"
-        "Place it on a mat\n"
-        "or a desk.");
+    "KARNIMANI-Puppe.\n"
+        "Für eine Matte oder\n"
+        "den Tisch.");
 
 const u8 DecorDesc_JIGGLYPUFF_DOLL[] = _(
-    "A JIGGLYPUFF doll.\n"
-        "Place it on a mat\n"
-        "or a desk.");
+    "PUMMELUFF-Puppe.\n"
+        "Für eine Matte oder\n"
+        "den Tisch.");
 
 const u8 DecorDesc_MEOWTH_DOLL[] = _(
-    "A MEOWTH doll.\n"
-        "Place it on a mat\n"
-        "or a desk.");
+    "MAUZI-Puppe. Leg\n"
+        "sie auf eine Matte\n"
+        "oder einen Tisch.");
 
 const u8 DecorDesc_CLEFAIRY_DOLL[] = _(
-    "A CLEFAIRY doll.\n"
-        "Place it on a mat\n"
-        "or a desk.");
+    "PIEPI-Puppe. Leg\n"
+        "sie auf eine Matte\n"
+        "oder einen Tisch.");
 
 const u8 DecorDesc_DITTO_DOLL[] = _(
-    "A DITTO doll.\n"
-        "Place it on a mat\n"
-        "or a desk.");
+    "DITTO-Puppe. Leg\n"
+        "sie auf eine Matte\n"
+        "oder einen Tisch.");
 
 const u8 DecorDesc_SMOOCHUM_DOLL[] = _(
-    "A SMOOCHUM doll.\n"
-        "Place it on a mat\n"
-        "or a desk.");
+    "KUSSILLA-Puppe.\n"
+        "Für eine Matte oder\n"
+        "den Tisch.");
 
 const u8 DecorDesc_TREECKO_DOLL[] = _(
-    "A TREECKO doll.\n"
-        "Place it on a mat\n"
-        "or a desk.");
+    "GECKARBOR-Puppe.\n"
+        "Für eine Matte oder\n"
+        "den Tisch.");
 
 const u8 DecorDesc_TORCHIC_DOLL[] = _(
-    "A TORCHIC doll.\n"
-        "Place it on a mat\n"
-        "or a desk.");
+    "FLEMMLI-Puppe.\n"
+        "Für eine Matte oder\n"
+        "den Tisch.");
 
 const u8 DecorDesc_MUDKIP_DOLL[] = _(
-    "A MUDKIP doll.\n"
-        "Place it on a mat\n"
-        "or a desk.");
+    "HYDROPI-Puppe. Leg\n"
+        "sie auf eine Matte\n"
+        "oder einen Tisch.");
 
 const u8 DecorDesc_DUSKULL_DOLL[] = _(
-    "A DUSKULL doll.\n"
-        "Place it on a mat\n"
-        "or a desk.");
+    "ZWIRRLICHT-Puppe.\n"
+        "Für eine Matte oder\n"
+        "den Tisch.");
 
 const u8 DecorDesc_WYNAUT_DOLL[] = _(
-    "A WYNAUT doll.\n"
-        "Place it on a mat\n"
-        "or a desk.");
+    "ISSO-Puppe. Leg\n"
+        "sie auf eine Matte\n"
+        "oder einen Tisch.");
 
 const u8 DecorDesc_BALTOY_DOLL[] = _(
-    "A BALTOY doll.\n"
-        "Place it on a mat\n"
-        "or a desk.");
+    "PUPPANCE-Puppe.\n"
+        "Für eine Matte oder\n"
+        "den Tisch.");
 
 const u8 DecorDesc_KECLEON_DOLL[] = _(
-    "A KECLEON doll.\n"
-        "Place it on a mat\n"
-        "or a desk.");
+    "KECLEON-Puppe. Leg\n"
+        "sie auf eine Matte\n"
+        "oder einen Tisch.");
 
 const u8 DecorDesc_AZURILL_DOLL[] = _(
-    "An AZURILL doll.\n"
-        "Place it on a mat\n"
-        "or a desk.");
+    "AZURILL-Puppe. Leg\n"
+        "sie auf eine Matte\n"
+        "oder einen Tisch.");
 
 const u8 DecorDesc_SKITTY_DOLL[] = _(
-    "A SKITTY doll.\n"
-        "Place it on a mat\n"
-        "or a desk.");
+    "ENECO-Puppe. Leg\n"
+        "sie auf eine Matte\n"
+        "oder einen Tisch.");
 
 const u8 DecorDesc_SWABLU_DOLL[] = _(
-    "A SWABLU doll.\n"
-        "Place it on a mat\n"
-        "or a desk.");
+    "WABLU-Puppe. Leg\n"
+        "sie auf eine Matte\n"
+        "oder einen Tisch.");
 
 const u8 DecorDesc_GULPIN_DOLL[] = _(
-    "A GULPIN doll.\n"
-        "Place it on a mat\n"
-        "or a desk.");
+    "SCHLUPPUCK-Puppe.\n"
+        "Für eine Matte oder\n"
+        "den Tisch.");
 
 const u8 DecorDesc_LOTAD_DOLL[] = _(
-    "A LOTAD doll.\n"
-        "Place it on a mat\n"
-        "or a desk.");
+    "LOTURZEL-Puppe.\n"
+        "Für eine Matte oder\n"
+        "den Tisch.");
 
 const u8 DecorDesc_SEEDOT_DOLL[] = _(
-    "A SEEDOT doll.\n"
-        "Place it on a mat\n"
-        "or a desk.");
+    "SAMURZEL-Puppe.\n"
+        "Für eine Matte oder\n"
+        "den Tisch.");
 
 const u8 DecorDesc_PIKA_CUSHION[] = _(
-    "A PIKACHU cushion.\n"
-        "Place it on a mat\n"
-        "or a desk.");
+    "PIKACHU-Kissen.\n"
+        "Für eine Matte oder\n"
+        "den Tisch.");
 
 const u8 DecorDesc_ROUND_CUSHION[] = _(
-    "A MARILL cushion.\n"
-        "Place it on a mat\n"
-        "or a desk.");
+    "MARILL-Kissen.\n"
+        "Für eine Matte oder\n"
+        "den Tisch.");
 
 const u8 DecorDesc_KISS_CUSHION[] = _(
-    "A SMOOCHUM\n"
-        "cushion. Place it on\n"
-        "a mat or a desk.");
+    "KUSSILLA-Kissen.\n"
+        "Für eine Matte oder\n"
+        "den Tisch.");
 
 const u8 DecorDesc_ZIGZAG_CUSHION[] = _(
-    "A ZIGZAGOON\n"
-        "cushion. Place it on\n"
-        "a mat or a desk.");
+    "ZIGZACHS-Kissen.\n"
+        "Für eine Matte oder\n"
+        "den Tisch.");
 
 const u8 DecorDesc_SPIN_CUSHION[] = _(
-    "A SPINDA cushion.\n"
-        "Place it on a mat\n"
-        "or a desk.");
+    "PANDIR-Kissen.\n"
+        "Für eine Matte oder\n"
+        "den Tisch.");
 
 const u8 DecorDesc_DIAMOND_CUSHION[] = _(
-    "A SABLEYE cushion.\n"
-        "Place it on a mat\n"
-        "or a desk.");
+    "ZOBIRIS-Kissen.\n"
+        "Für eine Matte oder\n"
+        "den Tisch.");
 
 const u8 DecorDesc_BALL_CUSHION[] = _(
-    "A BALL cushion.\n"
-        "Place it on a mat\n"
-        "or a desk.");
+    "BALL-Kissen.\n"
+        "Für eine Matte oder\n"
+        "den Tisch.");
 
 const u8 DecorDesc_GRASS_CUSHION[] = _(
-    "A grass-mark\n"
-        "cushion. Place it on\n"
-        "a mat or a desk.");
+    "Kissen mit Gras-\n"
+        "muster. Für\n"
+        "Matte oder Tisch.");
 
 const u8 DecorDesc_FIRE_CUSHION[] = _(
-    "A fire-mark\n"
-        "cushion. Place it on\n"
-        "a mat or a desk.");
+    "Kissen mit Feuer-\n"
+        "muster. Für\n"
+        "Matte oder Tisch.");
 
 const u8 DecorDesc_WATER_CUSHION[] = _(
-    "A water-mark\n"
-        "cushion. Place it on\n"
-        "a mat or a desk.");
+    "Kissen mit Wasser-\n"
+        "muster. Für\n"
+        "Matte oder Tisch.");
 
 const u8 DecorDesc_SNORLAX_DOLL[] = _(
-    "A large doll.\n"
-        "Place it on a mat\n"
-        "or a desk.");
+    "Große Puppe. Leg\n"
+        "sie auf eine Matte\n"
+        "oder den Tisch.");
 
 const u8 DecorDesc_RHYDON_DOLL[] = _(
-    "A large doll.\n"
-        "Place it on a mat\n"
-        "or a desk.");
+    "Große Puppe. Leg\n"
+        "sie auf eine Matte\n"
+        "oder den Tisch.");
 
 const u8 DecorDesc_LAPRAS_DOLL[] = _(
-    "A large doll.\n"
-        "Place it on a mat\n"
-        "or a desk.");
+    "Große Puppe. Leg\n"
+        "sie auf eine Matte\n"
+        "oder den Tisch.");
 
 const u8 DecorDesc_VENUSAUR_DOLL[] = _(
-    "A large doll.\n"
-        "Place it on a mat\n"
-        "or a desk.");
+    "Große Puppe. Leg\n"
+        "sie auf eine Matte\n"
+        "oder den Tisch.");
 
 const u8 DecorDesc_CHARIZARD_DOLL[] = _(
-    "A large doll.\n"
-        "Place it on a mat\n"
-        "or a desk.");
+    "Große Puppe. Leg\n"
+        "sie auf eine Matte\n"
+        "oder den Tisch.");
 
 const u8 DecorDesc_BLASTOISE_DOLL[] = _(
-    "A large doll.\n"
-        "Place it on a mat\n"
-        "or a desk.");
+    "Große Puppe. Leg\n"
+        "sie auf eine Matte\n"
+        "oder den Tisch.");
 
 const u8 DecorDesc_WAILMER_DOLL[] = _(
-    "A large doll.\n"
-        "Place it on a mat\n"
-        "or a desk.");
+    "Große Puppe. Leg\n"
+        "sie auf eine Matte\n"
+        "oder den Tisch.");
 
 const u8 DecorDesc_REGIROCK_DOLL[] = _(
-    "A large doll.\n"
-        "Place it on a mat\n"
-        "or a desk.");
+    "Große Puppe. Leg\n"
+        "sie auf eine Matte\n"
+        "oder den Tisch.");
 
 const u8 DecorDesc_REGICE_DOLL[] = _(
-    "A large doll.\n"
-        "Place it on a mat\n"
-        "or a desk.");
+    "Große Puppe. Leg\n"
+        "sie auf eine Matte\n"
+        "oder den Tisch.");
 
 const u8 DecorDesc_REGISTEEL_DOLL[] = _(
-    "A large doll.\n"
-        "Place it on a mat\n"
-        "or a desk.");
+    "Große Puppe. Leg\n"
+        "sie auf eine Matte\n"
+        "oder den Tisch.");

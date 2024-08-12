@@ -183,69 +183,71 @@ BerryTree_EventScript_PlantBerry::
 	return
 
 BerryTree_Text_ItsSoftLoamySoil:
-	.string "It's soft, loamy soil.$"
+	.string "Das ist weicher Lehmboden.$"
 
 BerryTree_Text_WantToPlant:
-	.string "It's soft, loamy soil.\n"
-	.string "Want to plant a BERRY?$"
+	.string "Das ist weicher Lehmboden.\n"
+	.string "Möchtest du eine BEERE pflanzen?$"
 
 BerryTree_Text_PlantedOneBerry:
-	.string "{PLAYER} planted one {STR_VAR_1} in\n"
-	.string "the soft, loamy soil.$"
+	.string "{PLAYER} pflanzt eine\n"
+	.string "{STR_VAR_1} in den Lehmboden.$"
 
 BerryTree_Text_BerryGrowthStage1:
-	.string "One {STR_VAR_1} was planted here.$"
+	.string "Eine {STR_VAR_1} wurde\n"
+	.string "hier gepflanzt.$"
 
 BerryTree_Text_BerryGrowthStage2:
-	.string "{STR_VAR_1} has sprouted.$"
+	.string "{STR_VAR_1} blüht auf.$"
 
 BerryTree_Text_BerryGrowthStage3:
-	.string "This {STR_VAR_1} plant is growing taller.$"
+	.string "Die {STR_VAR_1}-Pflanze wächst.$"
 
 BerryTree_Text_BerryGrowthStage4:
-	.string "These {STR_VAR_1} flowers are blooming\n"
+	.string "Diese {STR_VAR_1}-Blumen sind\n"
 	.string "{STR_VAR_2}.$"
 
 BerryTree_Text_CareAdverbGreat:
-	.string "very beautifully$"
+	.string "wunderschön$"
 
 BerryTree_Text_CareAdverbPoor:
-	.string "cutely$"
+	.string "zierlich$"
 
 BerryTree_Text_CareAdverbGood:
-	.string "prettily$"
+	.string "hübsch$"
 
 BerryTree_Text_WantToPick:
-	.string "You found {STR_VAR_2} {STR_VAR_1}!\p"
-	.string "Do you want to pick the\n"
-	.string "{STR_VAR_1}?$"
+	.string "{STR_VAR_2} {STR_VAR_1}!\p"
+	.string "Möchtest du die {STR_VAR_1}\n"
+	.string "pflücken?$"
 
 BerryTree_Text_PickedTheBerry:
-	.string "{PLAYER} picked the {STR_VAR_2} {STR_VAR_1}.$"
+	.string "{PLAYER} pflückt die {STR_VAR_2}\n"
+	.string "{STR_VAR_1}.$"
 
 BerryTree_Text_PutAwayBerry:
-	.string "{PLAYER} put away the {STR_VAR_1}\n"
-	.string "in the BAG's BERRIES POCKET.\p"
-	.string "The soil returned to its soft and\n"
-	.string "loamy state.$"
+	.string "{PLAYER} packt die {STR_VAR_1}\n"
+	.string "in die BEERENTASCHE des BEUTELs.\p"
+	.string "Der Boden ist wieder weich und lehmig.$"
 
 BerryTree_Text_BerryPocketFull:
-	.string "The BAG's BERRIES POCKET is full.\p"
-	.string "The {STR_VAR_1} couldn't be taken.$"
+	.string "Die BEERENTASCHE des BEUTELs ist voll.\p"
+	.string "Die {STR_VAR_1} können nicht\n"
+	.string "mitgenommen werden.$"
 
 BerryTree_Text_BerryLeftUnpicked:
-	.string "{PLAYER} left the {STR_VAR_1}\n"
-	.string "unpicked.$"
+	.string "{PLAYER} pflückt keine\n"
+	.string "{STR_VAR_1}.$"
 
 BerryTree_Text_WantToWater:
-	.string "Want to water the {STR_VAR_1} with the\n"
-	.string "WAILMER PAIL?$"
+	.string "Möchtest du die {STR_VAR_1} mit der\n"
+	.string "WAILMERKANNE gießen?$"
 
 BerryTree_Text_WateredTheBerry:
-	.string "{PLAYER} watered the {STR_VAR_1}.$"
+	.string "{PLAYER} gießt die {STR_VAR_1}.$"
 
 BerryTree_Text_PlantIsDelighted:
-	.string "The plant seems to be delighted.$"
+	.string "Die Pflanze scheint sich zu freuen.$"
 
 BerryTree_Text_ExclamationPoint:
 	.string "!$"
