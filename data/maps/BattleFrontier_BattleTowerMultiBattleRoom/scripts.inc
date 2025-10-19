@@ -440,28 +440,28 @@ BattleFrontier_BattleTowerMultiBattleRoom_Movement_WalkInPlaceLeft:
 	step_end
 
 BattleFrontier_BattleTowerMultiBattleRoom_Text_ReadyFor2ndOpponentSet:
-	.string "The 2nd set of opponents is next.\n"
-	.string "Are you ready?$"
+	.string "Das zweite gegnerische Team ist bereit.\n"
+	.string "Bist du so weit?$"
 
 BattleFrontier_BattleTowerMultiBattleRoom_Text_ReadyFor3rdOpponentSet:
-	.string "The 3rd set of opponents is next.\n"
-	.string "Are you ready?$"
+	.string "Das dritte gegnerische Team ist bereit.\n"
+	.string "Bist du so weit?$"
 
 BattleFrontier_BattleTowerMultiBattleRoom_Text_ReadyFor4thOpponentSet:
-	.string "The 4th set of opponents is next.\n"
-	.string "Are you ready?$"
+	.string "Das vierte gegnerische Team ist bereit.\n"
+	.string "Bist du so weit?$"
 
 BattleFrontier_BattleTowerMultiBattleRoom_Text_ReadyFor5thOpponentSet:
-	.string "The 5th set of opponents is next.\n"
-	.string "Are you ready?$"
+	.string "Das fünfte gegnerische Team ist bereit.\n"
+	.string "Bist du so weit?$"
 
 BattleFrontier_BattleTowerMultiBattleRoom_Text_ReadyFor6thOpponentSet:
-	.string "The 6th set of opponents is next.\n"
-	.string "Are you ready?$"
+	.string "Das sechste gegnerische Team ist\n"
+	.string "bereit. Bist du so weit?$"
 
 BattleFrontier_BattleTowerMultiBattleRoom_Text_ReadyFor7thOpponentSet:
-	.string "The 7th set of opponents is next.\n"
-	.string "Are you ready?$"
+	.string "Das siebte gegnerische Team ist\n"
+	.string "bereit. Bist du so weit?$"
 
 @ Unused
 BattleFrontier_BattleTowerMultiBattleRoom_Text_2ndOpponentSetNext:
@@ -494,9 +494,9 @@ BattleFrontier_BattleTowerMultiBattleRoom_Text_7thOpponentSetNext:
 	.string "Do your best!$"
 
 gText_LinkStandby3::
-	.string "Link standby…$"
+	.string "Verbindung wird gehalten…$"
 
 gText_YourPartnerHasRetired::
-	.string "Your partner has retired.\p"
-	.string "Your BATTLE ROOM challenge\n"
-	.string "will be canceled.$"
+	.string "Dein Partner hat sich zurückgezogen.\p"
+	.string "Deine KAMPFRAUM-Herausforderung\n"
+	.string "wird abgebrochen.$"

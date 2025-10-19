@@ -1,206 +1,206 @@
-const u8 gEasyChatWord_Appeal[] = _("APPEAL");
+const u8 gEasyChatWord_Appeal[] = _("AUSDRUCK");
 const u8 gEasyChatWord_Events[] = _("EVENTS");
-const u8 gEasyChatWord_StayAtHome[] = _("STAY-AT-HOME");
-const u8 gEasyChatWord_Berry[] = _("BERRY");
-const u8 gEasyChatWord_Contest[] = _("CONTEST");
+const u8 gEasyChatWord_StayAtHome[] = _("BABYSITTEN");
+const u8 gEasyChatWord_Berry[] = _("BEERE");
+const u8 gEasyChatWord_Contest[] = _("WETTBEWERB");
 const u8 gEasyChatWord_Mc[] = _("MC");
-const u8 gEasyChatWord_Judge[] = _("JUDGE");
+const u8 gEasyChatWord_Judge[] = _("JUROR");
 const u8 gEasyChatWord_Super[] = _("SUPER");
-const u8 gEasyChatWord_Stage[] = _("STAGE");
-const u8 gEasyChatWord_HallOfFame[] = _("HALL OF FAME");
-const u8 gEasyChatWord_Evolution[] = _("EVOLUTION");
+const u8 gEasyChatWord_Stage[] = _("BÜHNE");
+const u8 gEasyChatWord_HallOfFame[] = _("RUHMESHALLE");
+const u8 gEasyChatWord_Evolution[] = _("ENTWICKLUNG");
 const u8 gEasyChatWord_Hyper[] = _("HYPER");
-const u8 gEasyChatWord_BattleTower[] = _("BATTLE TOWER");
-const u8 gEasyChatWord_Leaders[] = _("LEADERS");
-const u8 gEasyChatWord_BattleRoom[] = _("BATTLE ROOM");
-const u8 gEasyChatWord_Hidden[] = _("HIDDEN");
-const u8 gEasyChatWord_SecretBase[] = _("SECRET BASE");
-const u8 gEasyChatWord_Blend[] = _("BLEND");
+const u8 gEasyChatWord_BattleTower[] = _("DUELLTURM");
+const u8 gEasyChatWord_Leaders[] = _("LEITER");
+const u8 gEasyChatWord_BattleRoom[] = _("KAMPFRAUM");
+const u8 gEasyChatWord_Hidden[] = _("VERSTECKTE");
+const u8 gEasyChatWord_SecretBase[] = _("GEHEIMBASIS");
+const u8 gEasyChatWord_Blend[] = _("MIXEN");
 const u8 gEasyChatWord_POKEBLOCK[] = _("{POKEBLOCK}");
-const u8 gEasyChatWord_Master[] = _("MASTER");
-const u8 gEasyChatWord_Rank[] = _("RANK");
-const u8 gEasyChatWord_Ribbon[] = _("RIBBON");
-const u8 gEasyChatWord_Crush[] = _("CRUSH");
-const u8 gEasyChatWord_Direct[] = _("DIRECT");
-const u8 gEasyChatWord_Tower[] = _("TOWER");
-const u8 gEasyChatWord_Union[] = _("UNION");
-const u8 gEasyChatWord_Room[] = _("ROOM");
-const u8 gEasyChatWord_Wireless[] = _("WIRELESS");
-const u8 gEasyChatWord_Frontier[] = _("FRONTIER");
+const u8 gEasyChatWord_Master[] = _("MEISTER");
+const u8 gEasyChatWord_Rank[] = _("KLASSE");
+const u8 gEasyChatWord_Ribbon[] = _("BAND");
+const u8 gEasyChatWord_Crush[] = _("MÜHLE");
+const u8 gEasyChatWord_Direct[] = _("DIREKT");
+const u8 gEasyChatWord_Tower[] = _("TURM");
+const u8 gEasyChatWord_Union[] = _("KONNEX");
+const u8 gEasyChatWord_Room[] = _("KLUB");
+const u8 gEasyChatWord_Wireless[] = _("DRAHTLOS");
+const u8 gEasyChatWord_Frontier[] = _("ZONE");
 
 const struct EasyChatWordInfo gEasyChatGroup_Events[] = {
     [EC_INDEX(EC_WORD_APPEAL)] =
     {
         .text = gEasyChatWord_Appeal,
-        .alphabeticalOrder = EC_INDEX(EC_WORD_APPEAL),
+        .alphabeticalOrder = 0,
         .enabled = TRUE,
     },
     [EC_INDEX(EC_WORD_EVENTS)] =
     {
         .text = gEasyChatWord_Events,
-        .alphabeticalOrder = EC_INDEX(EC_WORD_BATTLE_ROOM),
+        .alphabeticalOrder = 2,
         .enabled = TRUE,
     },
     [EC_INDEX(EC_WORD_STAY_AT_HOME)] =
     {
         .text = gEasyChatWord_StayAtHome,
-        .alphabeticalOrder = EC_INDEX(EC_WORD_BATTLE_TOWER),
+        .alphabeticalOrder = 21,
         .enabled = TRUE,
     },
     [EC_INDEX(EC_WORD_BERRY)] =
     {
         .text = gEasyChatWord_Berry,
-        .alphabeticalOrder = EC_INDEX(EC_WORD_BERRY),
+        .alphabeticalOrder = 3,
         .enabled = TRUE,
     },
     [EC_INDEX(EC_WORD_CONTEST)] =
     {
         .text = gEasyChatWord_Contest,
-        .alphabeticalOrder = EC_INDEX(EC_WORD_BLEND),
+        .alphabeticalOrder = 8,
         .enabled = TRUE,
     },
     [EC_INDEX(EC_WORD_MC)] =
     {
         .text = gEasyChatWord_Mc,
-        .alphabeticalOrder = EC_INDEX(EC_WORD_CONTEST),
+        .alphabeticalOrder = 23,
         .enabled = TRUE,
     },
     [EC_INDEX(EC_WORD_JUDGE)] =
     {
         .text = gEasyChatWord_Judge,
-        .alphabeticalOrder = EC_INDEX(EC_WORD_CRUSH),
+        .alphabeticalOrder = 27,
         .enabled = TRUE,
     },
     [EC_INDEX(EC_WORD_SUPER)] =
     {
         .text = gEasyChatWord_Super,
-        .alphabeticalOrder = EC_INDEX(EC_WORD_DIRECT),
+        .alphabeticalOrder = 12,
         .enabled = TRUE,
     },
     [EC_INDEX(EC_WORD_STAGE)] =
     {
         .text = gEasyChatWord_Stage,
-        .alphabeticalOrder = EC_INDEX(EC_WORD_EVENTS),
+        .alphabeticalOrder = 10,
         .enabled = TRUE,
     },
     [EC_INDEX(EC_WORD_HALL_OF_FAME)] =
     {
         .text = gEasyChatWord_HallOfFame,
-        .alphabeticalOrder = EC_INDEX(EC_WORD_EVOLUTION),
+        .alphabeticalOrder = 1,
         .enabled = TRUE,
     },
     [EC_INDEX(EC_WORD_EVOLUTION)] =
     {
         .text = gEasyChatWord_Evolution,
-        .alphabeticalOrder = EC_INDEX(EC_WORD_FRONTIER),
+        .alphabeticalOrder = 16,
         .enabled = TRUE,
     },
     [EC_INDEX(EC_WORD_HYPER)] =
     {
         .text = gEasyChatWord_Hyper,
-        .alphabeticalOrder = EC_INDEX(EC_WORD_HALL_OF_FAME),
+        .alphabeticalOrder = 11,
         .enabled = TRUE,
     },
     [EC_INDEX(EC_WORD_BATTLE_TOWER)] =
     {
         .text = gEasyChatWord_BattleTower,
-        .alphabeticalOrder = EC_INDEX(EC_WORD_HIDDEN),
+        .alphabeticalOrder = 6,
         .enabled = TRUE,
     },
     [EC_INDEX(EC_WORD_LEADERS)] =
     {
         .text = gEasyChatWord_Leaders,
-        .alphabeticalOrder = EC_INDEX(EC_WORD_HYPER),
+        .alphabeticalOrder = 14,
         .enabled = TRUE,
     },
     [EC_INDEX(EC_WORD_BATTLE_ROOM)] =
     {
         .text = gEasyChatWord_BattleRoom,
-        .alphabeticalOrder = EC_INDEX(EC_WORD_JUDGE),
+        .alphabeticalOrder = 20,
         .enabled = TRUE,
     },
     [EC_INDEX(EC_WORD_HIDDEN)] =
     {
         .text = gEasyChatWord_Hidden,
-        .alphabeticalOrder = EC_INDEX(EC_WORD_LEADERS),
+        .alphabeticalOrder = 26,
         .enabled = TRUE,
     },
     [EC_INDEX(EC_WORD_SECRET_BASE)] =
     {
         .text = gEasyChatWord_SecretBase,
-        .alphabeticalOrder = EC_INDEX(EC_WORD_MASTER),
+        .alphabeticalOrder = 25,
         .enabled = TRUE,
     },
     [EC_INDEX(EC_WORD_BLEND)] =
     {
         .text = gEasyChatWord_Blend,
-        .alphabeticalOrder = EC_INDEX(EC_WORD_MC),
+        .alphabeticalOrder = 13,
         .enabled = TRUE,
     },
     [EC_INDEX(EC_WORD_POKEBLOCK)] =
     {
         .text = gEasyChatWord_POKEBLOCK,
-        .alphabeticalOrder = EC_INDEX(EC_WORD_POKEBLOCK),
+        .alphabeticalOrder = 5,
         .enabled = TRUE,
     },
     [EC_INDEX(EC_WORD_MASTER)] =
     {
         .text = gEasyChatWord_Master,
-        .alphabeticalOrder = EC_INDEX(EC_WORD_RANK),
+        .alphabeticalOrder = 19,
         .enabled = TRUE,
     },
     [EC_INDEX(EC_WORD_RANK)] =
     {
         .text = gEasyChatWord_Rank,
-        .alphabeticalOrder = EC_INDEX(EC_WORD_RIBBON),
+        .alphabeticalOrder = 17,
         .enabled = TRUE,
     },
     [EC_INDEX(EC_WORD_RIBBON)] =
     {
         .text = gEasyChatWord_Ribbon,
-        .alphabeticalOrder = EC_INDEX(EC_WORD_ROOM),
+        .alphabeticalOrder = 22,
         .enabled = TRUE,
     },
     [EC_INDEX(EC_WORD_CRUSH)] =
     {
         .text = gEasyChatWord_Crush,
-        .alphabeticalOrder = EC_INDEX(EC_WORD_SECRET_BASE),
+        .alphabeticalOrder = 18,
         .enabled = TRUE,
     },
     [EC_INDEX(EC_WORD_DIRECT)] =
     {
         .text = gEasyChatWord_Direct,
-        .alphabeticalOrder = EC_INDEX(EC_WORD_STAGE),
+        .alphabeticalOrder = 9,
         .enabled = TRUE,
     },
     [EC_INDEX(EC_WORD_TOWER)] =
     {
         .text = gEasyChatWord_Tower,
-        .alphabeticalOrder = EC_INDEX(EC_WORD_STAY_AT_HOME),
+        .alphabeticalOrder = 7,
         .enabled = TRUE,
     },
     [EC_INDEX(EC_WORD_UNION)] =
     {
         .text = gEasyChatWord_Union,
-        .alphabeticalOrder = EC_INDEX(EC_WORD_SUPER),
+        .alphabeticalOrder = 24,
         .enabled = TRUE,
     },
     [EC_INDEX(EC_WORD_ROOM)] =
     {
         .text = gEasyChatWord_Room,
-        .alphabeticalOrder = EC_INDEX(EC_WORD_TOWER),
+        .alphabeticalOrder = 15,
         .enabled = TRUE,
     },
     [EC_INDEX(EC_WORD_WIRELESS)] =
     {
         .text = gEasyChatWord_Wireless,
-        .alphabeticalOrder = EC_INDEX(EC_WORD_UNION),
+        .alphabeticalOrder = 4,
         .enabled = TRUE,
     },
     [EC_INDEX(EC_WORD_FRONTIER)] =
     {
         .text = gEasyChatWord_Frontier,
-        .alphabeticalOrder = EC_INDEX(EC_WORD_WIRELESS),
+        .alphabeticalOrder = 28,
         .enabled = TRUE,
     },
 };

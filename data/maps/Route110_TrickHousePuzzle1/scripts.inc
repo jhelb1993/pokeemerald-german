@@ -37,41 +37,43 @@ Route110_TrickHousePuzzle1_EventScript_Robin::
 	end
 
 Route110_TrickHousePuzzle1_Text_WroteSecretCodeLockOpened::
-	.string "{PLAYER} wrote down the secret code\n"
-	.string "on the door.\p"
-	.string "“TRICK MASTER is fabulous.”\n"
+	.string "{PLAYER} hat den geheimen Code auf die\n"
+	.string "Tür geschrieben.\p"
+	.string "“RÄTSELMEISTER ist sagenhaft.”\n"
 	.string "… … … … … … … …\p"
-	.string "The lock clicked open!$"
+	.string "Das Schloss geht klickend auf.$"
 
 Route110_TrickHousePuzzle1_Text_SallyIntro:
-	.string "I'll hack and slash my way to victory\n"
-	.string "with the CUT we just learned!$"
+	.string "Ich habe mir den Weg zum Sieg mit dem\n"
+	.string "ZERSCHNEIDER, den wir gerade gelernt\l"
+	.string "haben, gebahnt.$"
 
 Route110_TrickHousePuzzle1_Text_SallyDefeat:
-	.string "Why are you so serious?$"
+	.string "Warum nimmst du das so ernst?$"
 
 Route110_TrickHousePuzzle1_Text_SallyPostBattle:
-	.string "I never get tired of hacking\n"
-	.string "and slashing!$"
+	.string "Ich werde des Hackens und\n"
+	.string "Schneidens nie müde!$"
 
 Route110_TrickHousePuzzle1_Text_EddieIntro:
-	.string "I wandered into this weird house\n"
-	.string "by accident…$"
+	.string "Ich bin nur zufällig in diesem\n"
+	.string "verrückten Haus gelandet…$"
 
 Route110_TrickHousePuzzle1_Text_EddieDefeat:
-	.string "And now I've lost…$"
+	.string "Und nun habe ich verloren…$"
 
 Route110_TrickHousePuzzle1_Text_EddiePostBattle:
-	.string "I lost my way, I lost a battle, and I'm\n"
-	.string "now even more lost… I can't get out…$"
+	.string "Ich bin vom Weg abgekommen, ich habe\n"
+	.string "verloren und bin verloren. Ich finde den\l"
+	.string "Ausgang nicht mehr…$"
 
 Route110_TrickHousePuzzle1_Text_RobinIntro:
-	.string "Just who is the TRICK MASTER?$"
+	.string "Wer ist dieser RÄTSELMEISTER bloß?$"
 
 Route110_TrickHousePuzzle1_Text_RobinDefeat:
-	.string "I lost while I was lost in thought!$"
+	.string "Ich verlor ganz gedankenverloren.$"
 
 Route110_TrickHousePuzzle1_Text_RobinPostBattle:
-	.string "You're strong!\n"
-	.string "Just who are you?$"
+	.string "Du bist stark!\n"
+	.string "Wer bist du eigentlich?$"
 

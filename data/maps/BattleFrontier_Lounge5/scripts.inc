@@ -42,162 +42,159 @@ BattleFrontier_Lounge5_EventScript_LittleBoy::
 	end
 
 BattleFrontier_Lounge5_Text_NatureGirlGreeting::
-	.string "Ehehe!\n"
-	.string "I can tell what POKéMON are thinking!\p"
-	.string "Please!\n"
-	.string "Can I see your POKéMON?$"
+	.string "Hihihi! Ich kann die Gedanken\n"
+	.string "von POKéMON lesen!\p"
+	.string "Bitte! Darf ich deine POKéMON mal\n"
+	.string "sehen? Bitte, bitte, bitte, bitte…$"
 
 BattleFrontier_Lounge5_Text_NatureGirlNoneShown::
-	.string "Boo!\n"
-	.string "Cheapie!$"
+	.string "Booh!\n"
+	.string "Fiesling!$"
 
 BattleFrontier_Lounge5_Text_NatureGirlHardy::
-	.string "Hmhm…\p"
-	.string "This one says it likes to battle!\n"
-	.string "It will battle even if it has a lot\l"
-	.string "of ouchies!$"
+	.string "Hmm…\p"
+	.string "Dieses hier sagt, es liebt Kämpfe!\n"
+	.string "Es wird sogar kämpfen, wenn es\l"
+	.string "ganz viele Autschies hat!$"
 
 BattleFrontier_Lounge5_Text_NatureGirlLonely::
-	.string "Hmhm…\p"
-	.string "This one says it likes to be sneaky!\n"
-	.string "But if it gets enough ouchies,\l"
-	.string "it will hit back!$"
+	.string "Hmm…\p"
+	.string "Dieses hier liebt es, sich anzu-\n"
+	.string "schleichen. Tut ihm aber zu viel weh,\l"
+	.string "dann wird es sich wehren.$"
 
 BattleFrontier_Lounge5_Text_NatureGirlBrave::
-	.string "Hmhm…\p"
-	.string "This one says it likes to battle!\n"
-	.string "But if it gets enough ouchies,\l"
-	.string "it will worry about itself!$"
+	.string "Hmm…\p"
+	.string "Dieses hier sagt, dass es Kämpfe mag.\n"
+	.string "Tut es sich im Kampf sehr weh, wird\l"
+	.string "es sich um sich selbst kümmern.$"
 
 BattleFrontier_Lounge5_Text_NatureGirlAdamant::
-	.string "Hmhm…\p"
-	.string "This one says it likes to battle!\n"
-	.string "It will battle even if it has a lot\l"
-	.string "of ouchies!$"
+	.string "Hmm…\p"
+	.string "Dieses hier sagt, es liebt Kämpfe!\n"
+	.string "Es wird sogar kämpfen, wenn es\l"
+	.string "ganz viele Autschies hat!$"
 
 BattleFrontier_Lounge5_Text_NatureGirlNaughty::
-	.string "Hmhm…\p"
-	.string "This one says it looks after itself!\n"
-	.string "But if it gets enough ouchies,\l"
-	.string "it will hit back!$"
+	.string "Hmm…\p"
+	.string "Dieses hier passt auf sich selbst auf!\n"
+	.string "Wenn es genug Autschies hat, dann wird\l"
+	.string "es sich auch wehren.$"
 
 BattleFrontier_Lounge5_Text_NatureGirlBold::
-	.string "Hmhm…\p"
-	.string "This one says it likes to be sneaky!\n"
-	.string "But if it gets enough ouchies,\l"
-	.string "it will worry about itself!$"
+	.string "Hmm…\p"
+	.string "Dieses hier liebt es, heimtückisch\n"
+	.string "zu sein. Tut es sich im Kampf sehr\l"
+	.string "weh, kümmert es sich um sich selbst.$"
 
 BattleFrontier_Lounge5_Text_NatureGirlDocileNaiveQuietQuirky::
-	.string "Hmhm…\p"
-	.string "This one says it likes to battle!\n"
-	.string "It will battle even if it has a lot\l"
-	.string "of ouchies!$"
+	.string "Hmm…\p"
+	.string "Dieses hier sagt, es liebt Kämpfe!\n"
+	.string "Es wird sogar kämpfen, wenn es\l"
+	.string "ganz viele Autschies hat!$"
 
 BattleFrontier_Lounge5_Text_NatureGirlRelaxed::
-	.string "Hmhm…\p"
-	.string "This one says it likes to be sneaky!\n"
-	.string "But if it gets enough ouchies,\l"
-	.string "it will hit back!$"
+	.string "Hmm…\p"
+	.string "Dieses hier liebt es, sich anzu-\n"
+	.string "schleichen. Tut ihm aber zu viel weh,\l"
+	.string "dann wird es sich wehren.$"
 
 BattleFrontier_Lounge5_Text_NatureGirlImpish::
-	.string "Hmhm…\p"
-	.string "This one says it likes to battle!\n"
-	.string "But if it gets enough ouchies,\l"
-	.string "it will worry about itself!$"
+	.string "Hmm…\p"
+	.string "Dieses hier sagt, dass es Kämpfe mag.\n"
+	.string "Tut es sich im Kampf sehr weh, wird\l"
+	.string "es sich um sich selbst kümmern.$"
 
 BattleFrontier_Lounge5_Text_NatureGirlLax::
-	.string "Hmhm…\p"
-	.string "This one says it likes to be sneaky!\n"
-	.string "It says it likes to be sneaky even\l"
-	.string "if it has a lot of ouchies!$"
+	.string "Hmm…\p"
+	.string "Dieses hier liebt es, heimtückisch\n"
+	.string "zu sein. Auch wenn es ganz viele\l"
+	.string "Autschies hat, wird es das tun.$"
 
 BattleFrontier_Lounge5_Text_NatureGirlTimid::
-	.string "Hmhm…\p"
-	.string "This one says it likes to battle!\n"
-	.string "But if it gets enough ouchies,\l"
-	.string "it will turn sneaky!$"
+	.string "Hmm…\p"
+	.string "Dieses hier sagt, es liebt Kämpfe!\n"
+	.string "Aber wenn es genug Autschies hat, wird\l"
+	.string "es heimtückisch.$"
 
 BattleFrontier_Lounge5_Text_NatureGirlHasty::
-	.string "Hmhm…\p"
-	.string "This one says it likes to battle!\n"
-	.string "It will battle even if it has a lot\l"
-	.string "of ouchies!$"
+	.string "Hmm…\p"
+	.string "Dieses hier sagt, es liebt Kämpfe!\n"
+	.string "Es wird sogar kämpfen, wenn es\l"
+	.string "ganz viele Autschies hat!$"
 
 BattleFrontier_Lounge5_Text_NatureGirlSerious::
-	.string "Hmhm…\p"
-	.string "This one says it likes to be sneaky!\n"
-	.string "It says it likes to be sneaky even\l"
-	.string "if it has a lot of ouchies!$"
+	.string "Hmm…\p"
+	.string "Dieses hier liebt es, sich anzu-\n"
+	.string "schleichen. Auch wenn es ganz viele\l"
+	.string "Autschies hat, wird es das tun.$"
 
 BattleFrontier_Lounge5_Text_NatureGirlJolly::
-	.string "Hmhm…\p"
-	.string "This one says it likes to be sneaky!\n"
-	.string "But if it gets enough ouchies,\l"
-	.string "it will worry about itself!$"
+	.string "Hmm…\p"
+	.string "Dieses hier liebt es, heimtückisch\n"
+	.string "zu sein. Tut es sich im Kampf sehr\l"
+	.string "weh, kümmert es sich um sich selbst.$"
 
 BattleFrontier_Lounge5_Text_NatureGirlModest::
-	.string "Hmhm…\p"
-	.string "This one says it looks after itself!\n"
-	.string "It says it worries about itself whether\l"
-	.string "or not it has a lot of ouchies!$"
+	.string "Hmm…\p"
+	.string "Dieses kümmert sich um sich selbst.\n"
+	.string "Egal, ob es Autschies hat oder nicht.$"
 
 BattleFrontier_Lounge5_Text_NatureGirlMild::
-	.string "Hmhm…\p"
-	.string "This one says it looks after itself!\n"
-	.string "But if it gets enough ouchies,\l"
-	.string "it will turn sneaky!$"
+	.string "Hmm…\p"
+	.string "Dieses passt auf sich selbst auf. Hat\n"
+	.string "es genug Autschies, wird es\l"
+	.string "heimtückisch.$"
 
 BattleFrontier_Lounge5_Text_NatureGirlBashful::
-	.string "Hmhm…\p"
-	.string "This one says it looks after itself!\n"
-	.string "It says it worries about itself even\l"
-	.string "if it has a lot of ouchies!$"
+	.string "Hmm…\p"
+	.string "Dieses kümmert sich um sich selbst.\n"
+	.string "Auch wenn es ganz viele Autschies hat.$"
 
 BattleFrontier_Lounge5_Text_NatureGirlRash::
-	.string "Hmhm…\p"
-	.string "This one says it likes to be sneaky!\n"
-	.string "It says it likes to be sneaky even\l"
-	.string "if it has a lot of ouchies!$"
+	.string "Hmm…\p"
+	.string "Dieses hier liebt es, heimtückisch\n"
+	.string "zu sein. Auch wenn es ganz viele\l"
+	.string "Autschies hat, wird es das tun.$"
 
 BattleFrontier_Lounge5_Text_NatureGirlCalm::
-	.string "Hmhm…\p"
-	.string "This one says it looks after itself!\n"
-	.string "It says it worries about itself even\l"
-	.string "if it has a lot of ouchies!$"
+	.string "Hmm…\p"
+	.string "Dieses kümmert sich um sich selbst.\n"
+	.string "Auch wenn es ganz viele Autschies hat.$"
 
 BattleFrontier_Lounge5_Text_NatureGirlGentle::
-	.string "Hmhm…\p"
-	.string "This one says it looks after itself!\n"
-	.string "But if it gets enough ouchies,\l"
-	.string "it will hit back!$"
+	.string "Hmm…\p"
+	.string "Dieses kümmert sich um sich selbst.\n"
+	.string "Aber wenn es genug Autschies hat, wird\l"
+	.string "es sich wehren!$"
 
 BattleFrontier_Lounge5_Text_NatureGirlSassy::
-	.string "Hmhm…\p"
-	.string "This one says it likes to battle!\n"
-	.string "But if it gets enough ouchies,\l"
-	.string "it will turn sneaky!$"
+	.string "Hmm…\p"
+	.string "Dieses hier sagt, es liebt Kämpfe!\n"
+	.string "Aber wenn es genug Autschies hat, wird\l"
+	.string "es heimtückisch.$"
 
 BattleFrontier_Lounge5_Text_NatureGirlCareful::
-	.string "Hmhm…\p"
-	.string "This one says it looks after itself!\n"
-	.string "But if it gets enough ouchies,\l"
-	.string "it will turn sneaky!$"
+	.string "Hmm…\p"
+	.string "Dieses passt auf sich selbst auf. Hat\n"
+	.string "es genug Autschies, wird es\l"
+	.string "heimtückisch.$"
 
 BattleFrontier_Lounge5_Text_NatureGirlEgg::
-	.string "That's silly! An EGG is asleep!\n"
-	.string "I can't talk to it!$"
+	.string "Du bist komisch! Das ist ein EI. Das\n"
+	.string "schläft doch! Wie soll ich damit reden?!$"
 
 BattleFrontier_Lounge5_Text_LadyClaimsSheUnderstandsPokemon::
-	.string "How charming!\n"
-	.string "That little lady claims she can\l"
-	.string "understand POKéMON!$"
+	.string "Wie charmant!\n"
+	.string "Diese kleine Dame hier behauptet, sie\l"
+	.string "könne die POKéMON verstehen!$"
 
 BattleFrontier_Lounge5_Text_GirlSayingSomethingProfound::
-	.string "I have this feeling that the little girl\n"
-	.string "is saying something profound.$"
+	.string "Ich habe das Gefühl, dies kleine\n"
+	.string "Mädchen sagt profunde Dinge!$"
 
 BattleFrontier_Lounge5_Text_GirlPlaysAtRedHouseALot::
-	.string "I know something!\p"
-	.string "That little girl plays at the red house\n"
-	.string "a lot!$"
+	.string "Ich weiß was! Ich weiß was!\p"
+	.string "Das kleine Mädchen spielt ganz oft\n"
+	.string "im roten Haus!$"
 

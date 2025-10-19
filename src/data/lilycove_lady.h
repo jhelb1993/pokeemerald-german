@@ -21,184 +21,184 @@ static const u16 sLilycoveLadyGfxId[] =
 // Quiz Lady data
 static const u16 sQuizLadyQuestion1[QUIZ_QUESTION_LEN] =
 {
-    EC_WORD_WHICH,
-    EC_WORD_STORES,
+    EC_WORD_WHAT,
+    EC_WORD_HAS,
     EC_WORD_INFORMATION,
-    EC_WORD_ON,
+    EC_WORD_OVER,
     EC_WORD_POKEMON,
     EC_WORD_QUES,
-    EC_WORD_CAMERA,
+    EC_WORD_PKRS,
     EC_WORD_POKEDEX,
-    EC_WORD_POKENAV
+    EC_WORD_POKENAV,
 };
 
 static const u16 sQuizLadyQuestion2[QUIZ_QUESTION_LEN] =
 {
-    EC_WORD_WHICH,
-    EC_WORD_ISN_T,
-    EC_WORD_A,
+    EC_WORD_WHAT,
+    EC_WORD_IS,
+    EC_WORD_NONE,
     EC_WORD_GAME,
-    EC_WORD_VERSION,
     EC_WORD_QUES,
+    EC_EMPTY_WORD,
     EC_WORD_RUBY,
     EC_WORD_SAPPHIRE,
-    EC_WORD_DARK
+    EC_WORD_DARK,
 };
 
 static const u16 sQuizLadyQuestion3[QUIZ_QUESTION_LEN] =
 {
-    EC_WORD_HOW,
-    EC_WORD_DO,
-    EC_WORD_POKEMON,
+    EC_WORD_HOW_DO,
     EC_WORD_EVOLVE,
+    EC_WORD_ABSOLUTELY,
+    EC_WORD_POKEMON,
     EC_WORD_QUES,
     EC_EMPTY_WORD,
     EC_WORD_LEVEL,
     EC_WORD_INSOMNIA,
-    EC_WORD_CUTE_CHARM
+    EC_WORD_LIQUID_OOZE,
 };
 
 static const u16 sQuizLadyQuestion4[QUIZ_QUESTION_LEN] =
 {
-    EC_WORD_WHICH,
+    EC_WORD_WHAT,
     EC_WORD_IS,
-    EC_WORD_THE,
     EC_WORD_PRETTY,
+    EC_WORD_THAN,
     EC_WORD_ITEM,
     EC_WORD_QUES,
     EC_WORD_COLD,
     EC_WORD_FLOWERS,
-    EC_WORD_MACHINE
+    EC_WORD_MACHINE,
 };
 
 static const u16 sQuizLadyQuestion5[QUIZ_QUESTION_LEN] =
 {
-    EC_WORD_WHICH,
-    EC_WORD_ITEM,
-    EC_WORD_DO,
-    EC_WORD_YOU,
-    EC_WORD_BREAK,
+    EC_WORD_WHAT,
+    EC_WORD_HAS,
+    EC_WORD_FATHER,
+    EC_WORD_AND,
+    EC_WORD_MOTHER,
     EC_WORD_QUES,
     EC_WORD_EGG,
-    EC_WORD_MAIL,
-    EC_WORD_PHONE
+    EC_WORD_LETTER,
+    EC_WORD_PHONE,
 };
 
 static const u16 sQuizLadyQuestion6[QUIZ_QUESTION_LEN] =
 {
-    EC_WORD_WHICH,
-    EC_WORD_WILL,
-    EC_WORD_STOP,
+    EC_WORD_WHAT,
+    EC_WORD_DOESN_T,
     EC_MOVE2(CONFUSION),
+    EC_WORD_STOP,
     EC_WORD_QUES,
     EC_EMPTY_WORD,
     EC_WORD_ILLUMINATE,
     EC_WORD_OWN_TEMPO,
-    EC_WORD_SWIFT_SWIM
+    EC_WORD_SWIFT_SWIM,
 };
 
 static const u16 sQuizLadyQuestion7[QUIZ_QUESTION_LEN] =
 {
-    EC_WORD_WHICH,
-    EC_WORD_OF,
-    EC_WORD_THESE,
+    EC_WORD_WHAT,
     EC_WORD_IS,
-    EC_WORD_MUSIC,
+    EC_WORD_WITHOUT,
+    EC_WORD_WATER,
     EC_WORD_QUES,
-    EC_WORD_FLYING,
-    EC_WORD_STEEL,
-    EC_WORD_ROCK
+    EC_EMPTY_WORD,
+    EC_WORD_DAMP,
+    EC_WORD_DRIZZLE,
+    EC_WORD_ROCK,
 };
 
 static const u16 sQuizLadyQuestion8[QUIZ_QUESTION_LEN] =
 {
-    EC_WORD_WHICH,
-    EC_WORD_WILL,
-    EC_MOVE2(BLOCK),
+    EC_WORD_WHAT,
+    EC_WORD_DOESN_T,
     EC_WORD_ESCAPE,
+    EC_WORD_IMPOSSIBLE,
     EC_WORD_QUES,
     EC_EMPTY_WORD,
     EC_WORD_RUN_AWAY,
     EC_WORD_SHADOW_TAG,
-    EC_WORD_WONDER_GUARD
+    EC_WORD_WONDER_GUARD,
 };
 
 static const u16 sQuizLadyQuestion9[QUIZ_QUESTION_LEN] =
 {
-    EC_WORD_WHICH,
-    EC_WORD_WILL,
-    EC_WORD_STOP,
+    EC_WORD_WHAT,
+    EC_WORD_IS,
     EC_WORD_POISON,
+    EC_WORD_STOP,
     EC_WORD_QUES,
     EC_EMPTY_WORD,
     EC_WORD_GUTS,
     EC_WORD_IMMUNITY,
-    EC_WORD_SHED_SKIN
+    EC_WORD_SHED_SKIN,
 };
 
 static const u16 sQuizLadyQuestion10[QUIZ_QUESTION_LEN] =
 {
-    EC_WORD_WHICH,
-    EC_WORD_GOES,
-    EC_WORD_WITH,
+    EC_WORD_WHAT,
+    EC_WORD_BELONGS_TO,
     EC_WORD_CENTER,
     EC_WORD_QUES,
     EC_EMPTY_WORD,
+    EC_EMPTY_WORD,
     EC_WORD_POKEDEX,
     EC_WORD_POKEMON,
-    EC_WORD_POKENAV
+    EC_WORD_POKENAV,
 };
 
 static const u16 sQuizLadyQuestion11[QUIZ_QUESTION_LEN] =
 {
-    EC_WORD_WHICH,
+    EC_WORD_WHO,
     EC_WORD_STORES,
-    EC_WORD_YOUR,
+    EC_WORD_YOURS,
     EC_WORD_POKEMON,
     EC_WORD_QUES,
     EC_EMPTY_WORD,
     EC_WORD_PC,
     EC_WORD_DEPT_STORE,
-    EC_WORD_TELEVISION
+    EC_WORD_TELEVISION,
 };
 
 static const u16 sQuizLadyQuestion12[QUIZ_QUESTION_LEN] =
 {
     EC_WORD_WHICH,
     EC_WORD_MACHINE,
-    EC_WORD_GIVES,
-    EC_WORD_YOU,
+    EC_WORD_HAS,
     EC_WORD_INFORMATION,
     EC_WORD_QUES,
+    EC_EMPTY_WORD,
     EC_WORD_BIKE,
     EC_WORD_LOCOMOTIVE,
-    EC_WORD_TELEVISION
+    EC_WORD_TELEVISION,
 };
 
 static const u16 sQuizLadyQuestion13[QUIZ_QUESTION_LEN] =
 {
     EC_WORD_A,
     EC_WORD_POKEMON,
-    EC_WORD_WAS,
-    EC_WORD_ONCE,
+    EC_WORD_HAS,
+    EC_WORD_EARLIER,
     EC_WORD_THIS,
-    EC_WORD_QUES,
-    EC_WORD_PHONE,
+    EC_WORD_LOOK,
     EC_WORD_PLUSH_DOLL,
-    EC_WORD_LETTER
+    EC_WORD_PHONE,
+    EC_WORD_LETTER,
 };
 
 static const u16 sQuizLadyQuestion14[QUIZ_QUESTION_LEN] =
 {
     EC_WORD_STEEL,
     EC_WORD_IS,
-    EC_WORD_STRONG,
+    EC_WORD_TOUGH,
     EC_WORD_VERSUS,
-    EC_WORD_WHICH,
     EC_WORD_QUES,
+    EC_EMPTY_WORD,
     EC_WORD_ICE,
     EC_WORD_GROUND,
-    EC_EMPTY_WORD
+    EC_EMPTY_WORD,
 };
 
 static const u16 sQuizLadyQuestion15[QUIZ_QUESTION_LEN] =
@@ -207,11 +207,11 @@ static const u16 sQuizLadyQuestion15[QUIZ_QUESTION_LEN] =
     EC_WORD_IS,
     EC_WORD_WEAK,
     EC_WORD_VERSUS,
-    EC_WORD_WHICH,
     EC_WORD_QUES,
+    EC_EMPTY_WORD,
     EC_WORD_PSYCHIC,
     EC_WORD_FIGHTING,
-    EC_EMPTY_WORD
+    EC_EMPTY_WORD,
 };
 
 static const u16 sQuizLadyQuestion16[QUIZ_QUESTION_LEN] =
@@ -220,11 +220,11 @@ static const u16 sQuizLadyQuestion16[QUIZ_QUESTION_LEN] =
     EC_WORD_IS,
     EC_WORD_WEAK,
     EC_WORD_VERSUS,
-    EC_WORD_WHICH,
     EC_WORD_QUES,
+    EC_EMPTY_WORD,
     EC_WORD_NORMAL,
     EC_WORD_DARK,
-    EC_EMPTY_WORD
+    EC_EMPTY_WORD,
 };
 
 static const u16 *const sQuizLadyQuizQuestions[] =

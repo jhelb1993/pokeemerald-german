@@ -4315,8 +4315,9 @@ static u8 Task_GetInfoCardInput(u8 taskId)
 
 static void DisplayTrainerInfoOnCard(u8 flags, u8 trainerTourneyId)
 {
+    const u8 *trClassName;
     struct TextPrinterTemplate textPrinter;
-    int i, j, k;
+    int i, j, k, trGender;
     int trainerId = 0;
     u8 nature = 0;
     int arrId = 0;
@@ -4399,14 +4400,15 @@ static void DisplayTrainerInfoOnCard(u8 flags, u8 trainerTourneyId)
     // Get class and trainer name
     i = 0;
     if (trainerId == TRAINER_PLAYER)
-        j = gFacilityClassToTrainerClass[FACILITY_CLASS_BRENDAN];
+        j = gFacilityClassToTrainerClass[FACILITY_CLASS_BRENDAN], trGender = gSaveBlock2Ptr->playerGender;
     else if (trainerId == TRAINER_FRONTIER_BRAIN)
-        j = GetDomeBrainTrainerClass();
+        j = GetDomeBrainTrainerClass(), trGender = -1;
     else
-        j = GetFrontierOpponentClass(trainerId);
+        j = GetFrontierOpponentClass(trainerId), trGender = IsFrontierTrainerFemale(trainerId);
 
-    for (;gTrainerClassNames[j][i] != EOS; i++)
-        gStringVar1[i] = gTrainerClassNames[j][i];
+    trClassName = GetTrainerClassNameGenderSpecific(j, trGender, NULL);
+    for (; *trClassName != EOS; trClassName++, i++)
+        gStringVar1[i] = *trClassName;
     gStringVar1[i] = CHAR_SPACE;
     gStringVar1[i + 1] = EOS;
 
